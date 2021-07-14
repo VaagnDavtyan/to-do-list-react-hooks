@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  /* background-color: green; */
+}
+
+.container{
+  margin: 200px auto;
+  width: 500px;
+  border: 3px solid grey;
+  background-color: rgb(14, 126, 218);
+  padding: 10px;
+  height: 400px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.todo{
+ margin: 50px auto;
+}
+.inputField{
+  flex: 1;
+  width: 300px;
+  height: 20px;
+  
+}
+.toptodo {
+  display: flex;
+  border-radius: 10px;
+}
+
+.clearbtn{
+  margin-left: 250px;
+  height: 25px;
+}
+
+.displayleft{
+  flex: 1;
+  color: white;
+  font-size: 20px;
+}
+.buttoncon {
+  display: flex;
+}
+
+.listcontainer{
+  margin-top: 30px;
+  color: white;
+  
+ 
+}
